@@ -11,7 +11,7 @@ function App() {
         console.log(res);
       });
   }
-  return <div className="Movitime">App</div>
+  return <div className="App">Movietime</div>
 }
 
 export default App
