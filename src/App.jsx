@@ -12,6 +12,7 @@ import { fetchDataFromApi } from './utils/api'
   import {BrowserRouter,Routes,Route} from "react-router-dom"
    import Footer from './components/footer/Footer'
    import Header from './components/header/Header'
+    import useFetch from './hooks/useFetch'
 function App() {
         const dispatch=useDispatch();
          const {url}=useSelector((state)=>state.home);
